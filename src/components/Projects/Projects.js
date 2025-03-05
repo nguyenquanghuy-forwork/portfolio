@@ -68,7 +68,7 @@ function Projects() {
               isBlog={false}
               title="MRP - Material Requirements Planning"
               description="Support company employees in determining product calculation and creating sourcing information."
-              demoLink="detail/mrp"
+              demoLink="detail/materialplanning"
             />
           </Col>
         </Row>

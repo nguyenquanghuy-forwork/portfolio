@@ -47,9 +47,9 @@ const projectImages = {
   ],
   apisupport: ["/images/apisupport01.png", "/images/apisupport02.png"],
   materialplanning: [
-    "/images/mrpplanning01.png",
-    "/images/mrpplanning02.png",
-    "/images/mrpplanning03.png",
+    "/images/mrp00.png",
+    "/images/mrp01.png",
+    "/images/mrp02.png",
   ],
 };
 
