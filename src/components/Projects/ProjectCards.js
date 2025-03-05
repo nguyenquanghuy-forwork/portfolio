@@ -36,6 +36,17 @@ function ProjectCards(props) {
             {"Detail"}
           </Button>
         )}
+        {props.docs && (
+          <Button
+            variant="primary"
+            href={props.docs}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            {"Docs"}
+          </Button>
+        )}
       </Card.Body>
     </Card>
   );
