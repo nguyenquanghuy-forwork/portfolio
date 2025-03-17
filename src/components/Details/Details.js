@@ -61,57 +61,130 @@ const Details = () => {
       title: "Go Food and Beverage (GoFNB)",
       description: (
         <div style={{ textAlign: "left" }}>
+          {/* Overview Section */}
           <h4 className="purple">
             <FaRocket /> Overview
           </h4>
           <p>
-            GoFNB is an advanced management platform tailored for the Food &
-            Beverage industry. It streamlines restaurant operations, optimizes
-            inventory, and enhances customer experience.
+            GoFNB is a management platform tailored for the Food & Beverage
+            industry, focusing on streamlining distribution, inventory, and
+            operations for restaurants. My role centered on building scalable
+            backend systems and real-time features.
           </p>
+
+          {/* My Contributions Section */}
           <h4 className="purple">
-            <FaCogs /> Key Features
+            <FaCogs /> My Contributions
           </h4>
           <ul>
-            <FaCheckCircle className="text-success" /> Real-time order tracking
-            & POS integration
-            <br />
-            <FaCheckCircle className="text-success" /> Automated inventory &
-            supply chain management <br />
-            <FaCheckCircle className="text-success" /> AI-driven sales analytics
-            & recommendations <br />
-            <FaCheckCircle className="text-success" /> Role-based staff &
-            payroll management
+            <li>
+              <FaCheckCircle className="text-success" /> Developed RESTful APIs
+              with .NET Core and C# to manage order distribution and inventory
+              updates
+            </li>
+            <li>
+              <FaCheckCircle className="text-success" /> Built a notification
+              microservice with .NET Core to manage devices and send
+              order/reservation alerts to POS devices
+            </li>
+            <li>
+              <FaCheckCircle className="text-success" /> Implemented SignalR for
+              real-time notifications to POS systems and Firebase for push
+              notifications to mobile devices
+            </li>
+            <li>
+              <FaCheckCircle className="text-success" /> Designed logic for
+              order creation, handling dynamic pricing and F&B-specific
+              workflows
+            </li>
+            <li>
+              <FaCheckCircle className="text-success" /> Implemented discount
+              logic for promotions, enabling flexible offers tailored to F&B
+              needs
+            </li>
+            <li>
+              <FaCheckCircle className="text-success" /> Integrated payment
+              processing with third-party services like MoMo and PayPal for
+              seamless transactions
+            </li>
+            <li>
+              <FaCheckCircle className="text-success" /> Optimized SQL Server
+              queries with Entity Framework Core, reducing API response time
+            </li>
+            <li>
+              <FaCheckCircle className="text-success" /> Integrated RabbitMQ and
+              Redis for efficient message queuing and caching, supporting
+              multi-branch distribution
+            </li>
           </ul>
 
+          {/* Tech Stack Section */}
           <h4 className="purple">
-            <FaTools /> Tech Stack
+            <FaTools /> Tech Stack I Worked With
           </h4>
           <ul>
-            <FaDatabase className="text-info" /> Backend: C# .NET Core, CQRS,
-            MediatR
-            <br />
-            <FaDatabase className="text-info" /> Frontend: ReactJS, Redux,
-            TypeScript
-            <br />
-            <FaDatabase className="text-info" /> Realtime: SignalR, WebSockets
-            <br />
-            <FaDatabase className="text-info" /> Messaging: RabbitMQ, Redis
-            <br />
-            <FaDatabase className="text-info" /> Database: SQL Server, EF Core
+            <li>
+              <FaDatabase className="text-info" /> Backend: C# .NET Core, CQRS,
+              MediatR, Dependency Injection
+            </li>
+            <li>
+              <FaDatabase className="text-info" /> Architecture: Clean
+              Architecture, Microservices
+            </li>
+            <li>
+              <FaDatabase className="text-info" /> Frontend: ReactJS (API
+              integration), TypeScript
+            </li>
+            <li>
+              <FaDatabase className="text-info" /> Realtime: SignalR, Socket.IO
+            </li>
+            <li>
+              <FaDatabase className="text-info" /> Messaging: RabbitMQ, Redis
+            </li>
+            <li>
+              <FaDatabase className="text-info" /> Database: SQL Server, Entity
+              Framework Core
+            </li>
+            <li>
+              <FaDatabase className="text-info" /> DevOps: Azure CI/CD, Docker
+            </li>
           </ul>
+
+          {/* My Impact Section */}
           <h4 className="purple">
-            <FaChartLine /> Business Impact
+            <FaChartLine /> My Impact
           </h4>
           <ul>
-            <FaUsers className="text-warning" /> Enhanced operational efficiency
-            for restaurants
-            <br />
-            <FaUsers className="text-warning" /> Reduced costs through automated
-            processes
-            <br />
-            <FaUsers className="text-warning" /> Improved customer experience &
-            loyalty programs
+            <li>
+              <FaUsers className="text-warning" /> Enabled real-time POS alerts
+              with SignalR, significantly speeding up update times
+            </li>
+            <li>
+              <FaUsers className="text-warning" /> Delivered mobile
+              notifications via Firebase, noticeably improving staff response
+              time
+            </li>
+            <li>
+              <FaUsers className="text-warning" /> Streamlined promotion order
+              creation, enhancing customer engagement with timely offers
+            </li>
+            <li>
+              <FaUsers className="text-warning" /> Optimized daily F&B logic,
+              ensuring smooth handling of peak-hour operations
+            </li>
+            <li>
+              <FaUsers className="text-warning" /> Integrated third-party
+              payment systems like MoMo and PayPal, simplifying transactions for
+              users
+            </li>
+            <li>
+              <FaUsers className="text-warning" /> Enhanced microservice
+              coordination with RabbitMQ, reducing missed orders
+            </li>
+            <li>
+              <FaUsers className="text-warning" /> Supported scalability across
+              numerous devices and multiple branches with a robust architecture
+            </li>
           </ul>
         </div>
       ),
